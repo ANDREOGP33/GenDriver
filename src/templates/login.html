@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gendriver</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="/templates/styles.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="/sing_in">
+        <input type="text" placeholder="Digite Seu CNPJ">
+        <input type="password" placeholder="Digite Sua Senha">
+        <a href="#">Esqueceu a Senha?</a>
+        <input type="button" class="button" value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Não tem conta?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="/sing_up">
+        <input type="text" placeholder="Digite Seu Email">
+        <input type="password" placeholder="Digite Seu CNPJ">
+        <input type="password" placeholder="Digite Sua Senha">
+        <input type="password" placeholder="Confirme Sua Senha">
+        <input type="button" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
